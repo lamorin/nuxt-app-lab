@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <Text></Text>
+    <Text :class="error"></Text>
   </div>
 </template>
 

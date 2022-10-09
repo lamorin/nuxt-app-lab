@@ -1,8 +1,11 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const props = defineProps(['propsClass','text'])
+
+</script>
 
 <template>
-  <div>
-    Component: Text
+  <div :class="props.propsClass">
+    {{ props.text}}
   </div>
 </template>
 
